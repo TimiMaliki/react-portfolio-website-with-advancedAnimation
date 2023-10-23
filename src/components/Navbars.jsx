@@ -32,7 +32,7 @@ function Navbars() {
   return (
     <Navbar expand="lg" className={scroll ? "scroll" : ""}>
       <Container>
-        <Navbar.Brand href="#home"><h1 className="maliki">Maliki</h1></Navbar.Brand>
+        <Navbar.Brand href="#home"><h1 className="maliki position:absolute">Maliki</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
             </Navbar.Toggle>
