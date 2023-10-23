@@ -1,10 +1,31 @@
-import React from 'react'
+import { useEffect,useState } from 'react';
 
 import {ArrowRightCircle}  from 'react-bootstrap-icons';
 import { Col, Container, Row } from 'react-bootstrap'
 import MeshMello from "../assets/about-me-img/im1.jpg"
 
 const Banner = () => {
+    const [loopNum ,setLoopNUm] = useState(0);
+    const [isdelete , setImgDelete] = useState(false);
+    const  [text, setText] = useState("");
+    const  [delta, setDelta] = useState(300 - Math.random() * 100)
+    const period = 2000;
+    const rotate = ['Web Developer' , 'Web Designer' , "UI/UX Designer"]
+     useEffect(() => {
+        let ticker = setInterval(() =>{
+           tick()
+        },delta)
+
+        return () => {
+            clearInterval(ticker);
+     }
+     }, [text])
+
+     const tick = () =>{
+     let i = loopNum % rotate.length;
+     let fullText = rotate[i];
+     let update
+     }
   return (
    <section className='banner' id='home'>
   <Container>
