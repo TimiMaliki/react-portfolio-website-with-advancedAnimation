@@ -24,7 +24,10 @@ const Banner = () => {
      const tick = () =>{
      let i = loopNum % rotate.length;
      let fullText = rotate[i];
-     let update
+
+
+     
+     let update 
      }
   return (
    <section className='banner' id='home'>
