@@ -28,7 +28,11 @@ const Banner = () => {
 
       setText(updatedtext)
 
-      if(isDelete && updatedtext === fullText){
+              if(isDelete){
+   setDelta(prevDelta => prevDelta/2)
+              }
+
+      if(!isDelete && updatedtext === fullText){
           setIsDelete(true);
           setDelta(period)
       }else if(isDelete && updatedtext  === ''){
@@ -37,8 +41,7 @@ const Banner = () => {
                  setDelta(500)
       }
 
-     
-     let update 
+ 
      }
   return (
    <section className='banner' id='home'>
@@ -46,7 +49,7 @@ const Banner = () => {
     <Row className='align-items-center'>
       <Col xs={12} md={6} xl={7}>
         <span className='tagline'>Welcome to my Portfolio</span>
-        <h1>{`Hi I'm TimiMaliki`}<span className='wrap'></span></h1>
+        <h1>{`Hi I'm TimiMaliki`}<span className='wrap'>{text}</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Praesentium dolorum placeat odit!</p>
             <button onClick={() =>{
