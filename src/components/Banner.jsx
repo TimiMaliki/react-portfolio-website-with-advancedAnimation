@@ -49,7 +49,8 @@ const Banner = () => {
     <Row className='align-items-center'>
       <Col xs={12} md={6} xl={7}>
         <span className='tagline'>Welcome to my Portfolio</span>
-        <h1>{`Hi I'm TimiMaliki`}<span className='wrap'>{text}</span></h1>
+        <h1 className='p-2'>{`Hi I'm TimiMaliki`} <br />
+        <span className='wrap'>{text}</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Praesentium dolorum placeat odit!</p>
             <button onClick={() =>{
