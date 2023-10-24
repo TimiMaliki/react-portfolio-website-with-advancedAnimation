@@ -1,3 +1,5 @@
+import { Col, Container, Row } from 'react-bootstrap';
+import { Robot } from 'react-bootstrap-icons';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -23,9 +25,41 @@ const responsive = {
 
 const Skills = () => {
   return (
-    <div>
-      
-    </div>
+   <section className='skills' id='skills'>
+<Container>
+    <Row>
+        <Col>
+        <div className="skill-bx">
+            <h2>Skill</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione provident perspiciatis inventore.
+            </p>
+       <Carousel responsive={responsive} infinite={true} className='skill-slider'>
+        <div className="item">
+            <img src={} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+        <div className="item">
+            <img src={} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+        <div className="item">
+            <img src={} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+        <div className="item">
+            <img src={} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+        <div className="item">
+            <img src={} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+       </Carousel>
+        </div>
+        </Col>
+    </Row>
+</Container>
+   </section>
   )
 }
 
