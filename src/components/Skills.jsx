@@ -1,5 +1,9 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import { Robot } from 'react-bootstrap-icons';
+import one from "../assets/skills-image/1.png"
+import  two from "../assets/skills-image/2.png"
+import three from "../assets/skills-image/3.png"
+import four from "../assets/skills-image/4.png"
+import five from "../assets/skills-image/5.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -35,24 +39,23 @@ const Skills = () => {
             </p>
        <Carousel responsive={responsive} infinite={true} className='skill-slider'>
         <div className="item">
-            <img src={} alt="" />
+            <img src={one} alt="" />
             <h5>Web Developer</h5>
         </div>
         <div className="item">
-            <img src={} alt="" />
+            <img src={two} alt="" />
             <h5>Web Developer</h5>
         </div>
         <div className="item">
-            <img src={} alt="" />
+            <img src={three} alt="" />
             <h5>Web Developer</h5>
         </div>
         <div className="item">
-            <img src={} alt="" />
+            <img src={four} alt="" />
             <h5>Web Developer</h5>
         </div>
         <div className="item">
-            <img src={} alt="" />
-            <h5>Web Developer</h5>
+            <img src={five} alt=''/></h5>
         </div>
        </Carousel>
         </div>
