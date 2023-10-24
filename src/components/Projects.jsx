@@ -1,37 +1,41 @@
 import { Container, Row, Col, Tab, Nav, TabPane } from "react-bootstrap";
-// import { ProjectCard } from "./ProjectCard";
+import  ProjectCard  from "./ProjectCard";
+import  two from "../assets/skills-image/2.png"
+import three from "../assets/skills-image/3.png"
+import four from "../assets/skills-image/4.png"
+import five from "../assets/skills-image/5.png"
 
 const Projects = () => {
   const projects = [
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: two,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: three,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: four,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: three,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: five,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: four,
     },
   ];
   return (
@@ -45,7 +49,8 @@ const Projects = () => {
               Doloremque accusamus iure nam.
             </p>
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-              <Nav variant="pills" className="flex-column">
+                
+              <Nav variant="pills" className="nav-pills" id="pills-tab">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Tab 1</Nav.Link>
                 </Nav.Item>
@@ -62,13 +67,16 @@ const Projects = () => {
                     {
                         projects.map((project,index) =>{
                               return(
-                                <p>{project.title}</p>
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                />
                               )
                         })
                     }
                   </Row>
                 </TabPane>
-                <Tab.Pane eventKey="section">
+                <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
