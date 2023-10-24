@@ -34,7 +34,7 @@ const Skills = () => {
     <Row>
         <Col>
         <div className="skill-bx">
-            <h2>Skill</h2>
+            <h2>Skills</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione provident perspiciatis inventore.
             </p>
        <Carousel responsive={responsive} infinite={true} className='skill-slider'>
@@ -42,20 +42,28 @@ const Skills = () => {
             <img src={one} alt="" />
             <h5>Web Developer</h5>
         </div>
+
         <div className="item">
             <img src={two} alt="" />
             <h5>Web Developer</h5>
         </div>
+
+
         <div className="item">
             <img src={three} alt="" />
             <h5>Web Developer</h5>
         </div>
+
+
         <div className="item">
             <img src={four} alt="" />
             <h5>Web Developer</h5>
         </div>
+
+
         <div className="item">
-            <img src={five} alt=''/></h5>
+            <img src={five} alt="" />
+            <h5>Web Developer</h5>
         </div>
        </Carousel>
         </div>
