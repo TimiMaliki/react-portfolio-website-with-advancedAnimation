@@ -41,6 +41,7 @@ function Navbars() {
             <Nav.Link href="#home" className={activeLinks === "home" ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLinks === "skills" ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLinks === "projects" ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>projects</Nav.Link>
+            <Nav.Link href="#contact" className={activeLinks === "contact" ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>contact</Nav.Link>
           </Nav>
           <span className="navbar-text d-lg-flex d-sm-grid gap-3">
             <div className="social-icon">
