@@ -53,9 +53,9 @@ const Projects = () => {
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 
               <Nav variant="pills" className="nav-pills" id="pills-tab">
-                <Nav.Item>
+                {/* <Nav.Item>
                   <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                </Nav.Item>
+                </Nav.Item> */}
               </Nav>
               <Tab.Content>
                 <TabPane eventKey="first">

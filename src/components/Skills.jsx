@@ -1,9 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import one from "../assets/skills-image/1.png"
-import  two from "../assets/skills-image/2.png"
-import three from "../assets/skills-image/3.png"
-import four from "../assets/skills-image/4.png"
-import five from "../assets/skills-image/5.png"
+ import MeterOne from "../assets/skills-image/MeterHtml.webp"
+ import MeterTwo from "../assets/skills-image/MeterCSS.webp"
+ import MeterThree from "../assets/skills-image/JavaScript-logo.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -39,32 +37,21 @@ const Skills = () => {
             </p>
        <Carousel responsive={responsive} infinite={true} className='skill-slider'>
         <div className="item">
-            <img src={one} alt="" />
+            <img src={MeterOne} alt="" />
             <h5>Web Developer</h5>
         </div>
 
         <div className="item">
-            <img src={two} alt="" />
-            <h5>Web Developer</h5>
-        </div>
-
-
-        <div className="item">
-            <img src={three} alt="" />
+            <img src={MeterTwo} alt="" />
             <h5>Web Developer</h5>
         </div>
 
 
         <div className="item">
-            <img src={four} alt="" />
+            <img src={MeterThree} alt="" />
             <h5>Web Developer</h5>
         </div>
 
-
-        <div className="item">
-            <img src={five} alt="" />
-            <h5>Web Developer</h5>
-        </div>
        </Carousel>
         </div>
         </Col>
