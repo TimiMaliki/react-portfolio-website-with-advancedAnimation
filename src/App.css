@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  /* background-color: #121212 !important; */
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -313,7 +313,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -345,12 +346,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #fff;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  color: #000;
 }
 .project p {
   color: #B8B8B8;
@@ -374,7 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 9;
   padding: 17px 0;
   color: #fff;
   width: 100%;
@@ -470,8 +472,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  /* background: #111; */
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
+  background: #000;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -515,7 +517,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 7px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -525,10 +527,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover {
   color: #fff;
+  border-radius: 7px;
 }
 .contact form button::before {
   content: "";
   background: #121212;
+  border-radius: 7px;
   width: 0;
   height: 100%;
   position: absolute;
