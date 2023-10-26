@@ -47,8 +47,7 @@ const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque accusamus iure nam.
+            my web creations – each one a unique online masterpiece!
             </p>
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 
