@@ -2,6 +2,10 @@ import { Col, Container, Row } from 'react-bootstrap';
  import MeterOne from "../assets/skills-image/MeterHtml.webp"
  import MeterTwo from "../assets/skills-image/MeterCSS.webp"
  import MeterThree from "../assets/skills-image/JavaScript-logo.png"
+ import MeterFour from "../assets/skills-image/firebase.png"
+ import MeterFive from "../assets/skills-image/react.png"
+ import MeterSix from "../assets/skills-image/nextjs.png"
+ 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -51,6 +55,24 @@ const Skills = () => {
             <img src={MeterThree} alt="" />
             <h5>Web Developer</h5>
         </div>
+
+
+        <div className="item">
+            <img src={MeterFive} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+
+        <div className="item">
+            <img src={MeterFour} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+
+        <div className="item">
+            <img src={MeterSix} alt="" />
+            <h5>Web Developer</h5>
+        </div>
+
+
 
        </Carousel>
         </div>
