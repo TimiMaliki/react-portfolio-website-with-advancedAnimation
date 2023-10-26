@@ -1,12 +1,19 @@
 import { Container, Row, Col, Tab, Nav, TabPane } from "react-bootstrap";
 import  ProjectCard  from "./ProjectCard";
+import   one from "../assets/skills-image/1.png"
 import  two from "../assets/skills-image/2.png"
 import three from "../assets/skills-image/3.png"
 import four from "../assets/skills-image/4.png"
 import five from "../assets/skills-image/5.png"
+import six from "../assets/skills-image/6.png"
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: one,
+    },
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -25,17 +32,12 @@ const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: three,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
       imgUrl: five,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: four,
+      imgUrl: six,
     },
   ];
   return (
@@ -54,12 +56,6 @@ const Projects = () => {
                 <Nav.Item>
                   <Nav.Link eventKey="first">Tab 1</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                </Nav.Item> 
               </Nav>
               <Tab.Content>
                 <TabPane eventKey="first">
