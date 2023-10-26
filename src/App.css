@@ -320,14 +320,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 50px;
   color: #000;
 }
-.skill h2 {
+.skill h2{
 	font-size: 45px;
 	font-weight: 700;
   color: #000;
 }
+.bold{
+  font-weight: bolder;
+}
+.largerText{
+  font-size: 20px;
+}
 .skill p {
     color: #000;
-    font-size: 18px;
+    font-size: 23px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
