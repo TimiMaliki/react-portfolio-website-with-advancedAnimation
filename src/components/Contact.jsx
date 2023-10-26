@@ -54,7 +54,6 @@ const Contact = () => {
                 <Col sm={6} className="px-1">
                   <input
                     type="text"
-                    value={formDetails.firstName}
                     placeholder="First Name"
                     onChange={(e) => {
                       onFormUpdate("first Name", e.target.value);
@@ -64,7 +63,6 @@ const Contact = () => {
                 <Col sm={6} className="px-1">
                   <input
                     type="text"
-                    value={formDetails.lastName}
                     placeholder="Last Name"
                     onChange={(e) => {
                       onFormUpdate("Last Name", e.target.value);
@@ -86,7 +84,6 @@ const Contact = () => {
                 <Col sm={6} className="px-1">
                   <input
                     type="email"
-                    value={formDetails.phone}
                     placeholder="Email Address"
                     onChange={(e) => {
                       onFormUpdate("Email Address", e.target.value);
