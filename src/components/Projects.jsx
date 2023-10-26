@@ -11,35 +11,37 @@ const Projects = () => {
   const projects = [
     {
       title: "Business Startup",
-      description: "Design & Development",
       imgUrl: one,
+      links:"https://home-and-furnitures.vercel.app/"
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
       imgUrl: two,
+      links:"https://home-and-furnitures.vercel.app/"
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
       imgUrl: three,
+      links:"https://home-and-furnitures.vercel.app/"
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
       imgUrl: four,
+      links:"https://home-and-furnitures.vercel.app/"
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
       imgUrl: five,
+      links:"https://home-and-furnitures.vercel.app/"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: six,
+      links:"https://home-and-furnitures.vercel.app/"
     },
   ];
+
   return (
     <section className="project" id="project">
       <Container>
@@ -49,12 +51,8 @@ const Projects = () => {
             <p>
             my web creations – each one a unique online masterpiece!
             </p>
-            <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                
+            <Tab.Container id="left-tabs-example" defaultActiveKey="first">  
               <Nav variant="pills" className="nav-pills" id="pills-tab">
-                {/* <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                </Nav.Item> */}
               </Nav>
               <Tab.Content>
                 <TabPane eventKey="first">
@@ -71,12 +69,6 @@ const Projects = () => {
                     }
                   </Row>
                 </TabPane>
-                <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
