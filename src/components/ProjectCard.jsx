@@ -7,7 +7,7 @@ const ProjectCard = ({title,imgUrl,links}) => {
      <a href={links} className=""> <img src={imgUrl} /></a>
       <div className="proj-txtx">
         <h4>{title}</h4>
-        <a href={links} className="click">click here</a>
+        <a href={links} className="click">View</a>
       </div>
     </div>
   </Col>

@@ -10,32 +10,32 @@ import six from "../assets/skills-image/6.png"
 const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Music App Website",
       imgUrl: one,
       links:"https://music-nu-three.vercel.app/"
     },
     {
-      title: "Business Startup",
+      title: "Fashion lovers Website",
       imgUrl: two,
       links:"https://maliki-fashion-ecommerce.vercel.app/"
     },
     {
-      title: "Business Startup",
+      title: "Food Website",
       imgUrl: three,
       links:"https://food-beige-psi.vercel.app/"
     },
     {
-      title: "Business Startup",
+      title: "Secure Form Agency Website",
       imgUrl: four,
       links:"https://secure-form.vercel.app/"
     },
     {
-      title: "Business Startup",
+      title: "Cosmetic Ecommerce Website",
       imgUrl: five,
       links:"https://cosmetic-website-tau.vercel.app/"
     },
     {
-      title: "Business Startup",
+      title: "Home Furnitures Ecommerce Website",
       description: "Design & Development",
       imgUrl: six,
       links:"https://home-and-furnitures.vercel.app/"
