@@ -37,8 +37,6 @@ const Skills = () => {
         <Col>
         <div className="skill-bx">
             <h1 className='bold'>Skills</h1>
-            <p className='largerText'>Here lies my specialties
-            </p>
        <Carousel responsive={responsive} infinite={true} className='skill-slider'>
         <div className="item">
             <img src={MeterOne} alt="" />
