@@ -12,27 +12,27 @@ const Projects = () => {
     {
       title: "Business Startup",
       imgUrl: one,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://music-nu-three.vercel.app/"
     },
     {
       title: "Business Startup",
       imgUrl: two,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://maliki-fashion-ecommerce.vercel.app/"
     },
     {
       title: "Business Startup",
       imgUrl: three,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://food-beige-psi.vercel.app/"
     },
     {
       title: "Business Startup",
       imgUrl: four,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://secure-form.vercel.app/"
     },
     {
       title: "Business Startup",
       imgUrl: five,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://cosmetic-website-tau.vercel.app/"
     },
     {
       title: "Business Startup",
