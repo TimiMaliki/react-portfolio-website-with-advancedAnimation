@@ -58,7 +58,7 @@ const Contact = () => {
               <p className="">malikitimi@gmail.com</p>
             </div>
         
-            <div className="contact">
+            <div className="number">
               <h3 className="">Contact</h3>
               <p className="">whatsapp:+2348102850113</p>
             </div>
