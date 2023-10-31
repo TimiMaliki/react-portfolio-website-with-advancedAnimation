@@ -73,6 +73,31 @@ const Projects = () => {
             </Tab.Container>
           </Col>
         </Row>
+        {/* more projects */}
+        <Row>
+          <Col>
+            <Tab.Container id="left-tabs-example" defaultActiveKey="first">  
+              <Nav variant="pills" className="nav-pills" id="pills-tab">
+              </Nav>
+              <Tab.Content>
+                <TabPane eventKey="first">
+                  <Row>
+                    {
+                        projects.map((project,index) =>{
+                              return(
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                        })
+                    }
+                  </Row>
+                </TabPane>
+              </Tab.Content>
+            </Tab.Container>
+          </Col>
+        </Row>
       </Container>
     </section>
   );
