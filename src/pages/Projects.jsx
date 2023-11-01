@@ -8,6 +8,7 @@ import five from "../assets/skills-image/5.png"
 import six from "../assets/skills-image/6.png"
 import seven from "../assets/skills-image/7.png"
 import  ate from "../assets/skills-image/8.png"
+import  nine from "../assets/skills-image/9.png"
 
 const Projects = () => {
   const projects = [
@@ -38,20 +39,22 @@ const Projects = () => {
     },
     {
       title: "Home Furnitures Ecommerce Website",
-      description: "Design & Development",
       imgUrl: six,
       links:"https://home-and-furnitures.vercel.app/"
     },
     {
       title: "Art Merch Shopping Cart",
-      description: "Design & Development",
       imgUrl: seven,
       links:"https://home-and-furnitures.vercel.app/"
     },
     {
       title: "A Light Switch Toggle",
-      description: "Design & Development",
       imgUrl: ate,
+      links:"https://home-and-furnitures.vercel.app/"
+    },
+    {
+      title: "A Rem to Px converter",
+      imgUrl: nine,
       links:"https://home-and-furnitures.vercel.app/"
     },
   ];
