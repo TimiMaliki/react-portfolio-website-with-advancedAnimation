@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="social-icon">
                 <div className="icon-icon">
                 <a href="https://github.com/TimiMaliki"><img src={GH} alt="" width ={50}/></a>
-                <a href="https://github.com/TimiMaliki"><img src={LI} alt="" width ={50}/></a>
+                <a href="linkedin.com/in/timimaliki"><img src={LI} alt="" width ={50}/></a>
                 <p className="copyright">Copyright 2023. All Rights Reserved</p>
                 </div>
               </div>
