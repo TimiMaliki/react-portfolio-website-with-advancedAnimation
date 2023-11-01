@@ -45,17 +45,17 @@ const Projects = () => {
     {
       title: "Art Merch Shopping Cart",
       imgUrl: seven,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://art-merch-shopping-cart-js.vercel.app/"
     },
     {
       title: "A Light Switch Toggle",
       imgUrl: ate,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://light-switch-js-psi.vercel.app/"
     },
     {
       title: "A Rem to Px converter",
       imgUrl: nine,
-      links:"https://home-and-furnitures.vercel.app/"
+      links:"https://rem-px-converter.vercel.app/"
     },
   ];
 
