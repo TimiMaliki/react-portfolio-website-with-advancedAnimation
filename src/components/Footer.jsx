@@ -8,14 +8,14 @@ const Footer = () => {
       <footer className="footer">
         <Container>
           <Row className="align-items-center">
-            <Col size={12} sm={6}>
-              {/* <img src={logo} alt="Logo" /> */}
-            </Col>
-            <Col size={12} sm={6} className="text-center text-sm-end">
+            <Col size={12} sm={6} className="text-center text-sm-end center">
               <div className="social-icon">
+                <div className="icon-icon">
                 <a href="https://github.com/TimiMaliki"><img src={GH} alt="" width ={50}/></a>
+                <p className="copyright">Copyright 2023. All Rights Reserved</p>
+                </div>
               </div>
-              <p>Copyright 2023. All Rights Reserved</p>
+            
             </Col>
           </Row>
         </Container>

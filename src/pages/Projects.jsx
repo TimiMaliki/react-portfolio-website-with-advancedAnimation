@@ -6,6 +6,8 @@ import three from "../assets/skills-image/3.png"
 import four from "../assets/skills-image/4.png"
 import five from "../assets/skills-image/5.png"
 import six from "../assets/skills-image/6.png"
+import seven from "../assets/skills-image/7.png"
+import  ate from "../assets/skills-image/8.png"
 
 const Projects = () => {
   const projects = [
@@ -38,6 +40,18 @@ const Projects = () => {
       title: "Home Furnitures Ecommerce Website",
       description: "Design & Development",
       imgUrl: six,
+      links:"https://home-and-furnitures.vercel.app/"
+    },
+    {
+      title: "Art Merch Shopping Cart",
+      description: "Design & Development",
+      imgUrl: seven,
+      links:"https://home-and-furnitures.vercel.app/"
+    },
+    {
+      title: "A Light Switch Toggle",
+      description: "Design & Development",
+      imgUrl: ate,
       links:"https://home-and-furnitures.vercel.app/"
     },
   ];
@@ -73,31 +87,7 @@ const Projects = () => {
             </Tab.Container>
           </Col>
         </Row>
-        {/* more projects */}
-        <Row>
-          <Col>
-            <Tab.Container id="left-tabs-example" defaultActiveKey="first">  
-              <Nav variant="pills" className="nav-pills" id="pills-tab">
-              </Nav>
-              <Tab.Content>
-                <TabPane eventKey="first">
-                  <Row>
-                    {
-                        projects.map((project,index) =>{
-                              return(
-                                <ProjectCard
-                                  key={index}
-                                  {...project}
-                                />
-                              )
-                        })
-                    }
-                  </Row>
-                </TabPane>
-              </Tab.Content>
-            </Tab.Container>
-          </Col>
-        </Row>
+      
       </Container>
     </section>
   );
