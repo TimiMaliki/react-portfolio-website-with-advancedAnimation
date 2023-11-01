@@ -55,7 +55,7 @@ const Banner = () => {
             I love travelling , art , science , watching anime and anything Fun!!!</p>
             <button onClick={() =>{
                 console.log('lets connect')
-            }}> <a href="linkedin.com/in/timimaliki"> Let's connect</a><a href="linkedin.com/in/timimaliki"><ArrowRightCircle href=''/></a></button>
+            }}> <a href="https://www.linkedin.com/in/timimaliki/"> Let's connect</a><a href="https://www.linkedin.com/in/timimaliki/"><ArrowRightCircle href=''/></a></button>
       </Col>
       <Col xs={12} md={6} xl={5}>
       <img src={MeshMello} alt="" style={{borderRadius:"150px", width:"200px" , height:"200px"}}/>
