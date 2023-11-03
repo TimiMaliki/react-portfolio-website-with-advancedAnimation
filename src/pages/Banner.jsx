@@ -51,7 +51,7 @@ const Banner = () => {
         <span className='tagline'>Welcome to my Portfolio</span>
         <h1 className='p-2'>{`Hi I'm TimiMaliki`} <br />
         <span className='wrap'>{text}</span></h1>
-        <p>A Front End Developer , with six months of experience,
+        <p>A Front End Developer , with six months of internship,
             I love travelling , art , science , watching anime and anything Fun!!!</p>
             <button onClick={() =>{
                 console.log('lets connect')
